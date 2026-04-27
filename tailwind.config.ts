@@ -63,6 +63,14 @@ export default {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      fontFamily: {
+        display: ["var(--font-display)"],
+        sans: ["var(--font-sans)"],
+        mono: ["var(--font-mono)"],
+      },
+      boxShadow: {
+        soft: "var(--shadow-soft)",
+      },
       keyframes: {
         "accordion-down": {
           from: {
